@@ -1,4 +1,17 @@
 /* Basic Style */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+input, button {
+ outline: none;
+}
+
 body {
   background-color: #f8f8f8;
   color: #333;
@@ -40,20 +53,6 @@ body {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
-}
-
-/*Для сброса стилей*/
-ul {
-  margin: 0;
-  padding: 0px;
-}
-
-li, h3 {
-  list-style: none;
-}
-
-input,button{
-  outline: none;
 }
 
 .add-task__add-button,
