@@ -165,11 +165,11 @@ body {
   display: none;
 }
 
-.task__input_edit-mode {
-  display:inline-block;
-  width: 224px;
+.task--edit-mode .task__label {
+  display: none;
 }
 
-.task__label_edit-mode {
-  display: none;
+.task--edit-mode .task__input {
+  display: inline-block;
+  width: 224px;
 }
